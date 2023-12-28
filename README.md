@@ -19,29 +19,29 @@ Je dient jouw uitwerking in via **Github Classrooms**. De link vind je op Leho b
 Vergeet niet om regelmatig te committen en pushen naar je repository en controleer of je project daadwerkelijk online staat. Enkel wat online staat wordt geëvalueerd!
 
 ## Technische (algemene) vereisten
-- [ ]	Je maakt een **responsive layout met behulp van een CSS grid voor de algemene layout van de pagina’s** en gebruikt die consistent op alle pagina’s. Je website ziet er dus zowel op mobile, desktop als tablet goed uit en heeft indien nodig een andere structuur.
+- [ ] Je maakt een **responsive layout met behulp van een CSS grid voor de algemene layout van de pagina’s** en gebruikt die consistent op alle pagina’s. Je website ziet er dus zowel op mobile, desktop als tablet goed uit en heeft indien nodig een andere structuur.
 
-- [ ]	Je website gebruikt **eigen CSS**. Het gebruik van CSS Frameworks (Bootstrap, Bulma, …) is **niet toegelaten**.
+- [ ] Je website gebruikt **eigen CSS**. Het gebruik van CSS Frameworks (Bootstrap, Bulma, …) is **niet toegelaten**.
 
-- [ ]	De productenlijst(en) wordt vorm gegeven met behulp van een **CSS flexbox**.
+- [ ] De productenlijst(en) wordt vorm gegeven met behulp van een **CSS flexbox**.
 
-- [ ]	Gebruik de HTML5 semantische tags waar nodig (bv. headers, footers, main, section, article,…)
+- [ ] Gebruik de HTML5 semantische tags waar nodig (bv. headers, footers, main, section, article,…)
 
-- [ ]	Organiseer je afbeeldingen(*) en CSS- en HTML-bestanden in een **ordelijke mappenstructuur**.
+- [ ] Organiseer je afbeeldingen(*) en CSS- en HTML-bestanden in een **ordelijke mappenstructuur**.
 
-- [ ]	Alle webpagina’s zijn in geldige HTML5 opgebouwd (gebruik een validator). 
+- [ ] Alle webpagina’s zijn in geldige HTML5 opgebouwd (gebruik een validator). 
 
-- [ ]	Gebruik HTML coderingen voor speciale karakters © € … 
+- [ ] Gebruik HTML coderingen voor speciale karakters © € … 
 
-- [ ]	De webpagina’s zijn cross-browser en vertonen in alle moderne browsers een consistente weergave.
+- [ ] De webpagina’s zijn cross-browser en vertonen in alle moderne browsers een consistente weergave.
 
-- [ ]	Er kan op elke pagina naar de andere pagina’s genavigeerd worden. Dit doe je door een navigatiebalk te voorzien via een lijst. Het moet op elke pagina duidelijk zijn op welke pagina de gebruiker zich bevindt. Doe dit door de actieve pagina te markeren m.b.v. een CSS klasse ‘active’.
+- [ ] Er kan op elke pagina naar de andere pagina’s genavigeerd worden. Dit doe je door een navigatiebalk te voorzien via een lijst. Het moet op elke pagina duidelijk zijn op welke pagina de gebruiker zich bevindt. Doe dit door de actieve pagina te markeren m.b.v. een CSS klasse ‘active’.
 
-- [ ]	Op één van de hoeken van de pagina staat een chatknop. Deze knop hoeft niet te werken, maar hij is steeds zichtbaar op dezelfde plaats, ook al wordt er gescrolled.
+- [ ] Op één van de hoeken van de pagina staat een chatknop. Deze knop hoeft niet te werken, maar hij is steeds zichtbaar op dezelfde plaats, ook al wordt er gescrolled.
 
-- [ ]	Onderaan elke pagina staat een disclaimer : “Dit is een virtuele oefenfirma. Informatie, transacties en goederen op deze website zijn fictief en hebben louter educatieve doeleinden.”
+- [ ] Onderaan elke pagina staat een disclaimer : “Dit is een virtuele oefenfirma. Informatie, transacties en goederen op deze website zijn fictief en hebben louter educatieve doeleinden.”
 
-- [ ]	Plaats volgende copyrighttekst op elke pagina: “© [Naam] [Voornaam] – WFB@Home – Howest”
+- [ ] Plaats volgende copyrighttekst op elke pagina: “© [Naam] [Voornaam] – WFB@Home – Howest”
 
 ## Algemene design vereisten
 De website is de online identiteit van het bedrijf en vereist dus een professionele look en een consistente huisstijl. Behalve de inhoud moet er dus ook een goed design gemaakt worden:
@@ -54,11 +54,11 @@ Alle rest wordt overgelaten aan jouw creativiteit. Even geen inspiratie? Zoek gr
 ## Uitbreidingsmogelijkheiden
 Uitbreidingen zijn uiteraard toegestaan. Hieronder een lijst van mogelijke onderwerpen waar je ook mee aan de slag kan gaan. **Deze punten zijn geenszins verplicht**, maar geven uiteraard jouw extra gemotiveerde inzet weer.
 
-- [ ]	Je website is voorzien van een logo (dit mag tekst zijn) dat een **animatie** heeft.
+- [ ] Je website is voorzien van een logo (dit mag tekst zijn) dat een **animatie** heeft.
 
-- [ ]	Wanneer er over de een link in de navigatiebalk gehovered wordt, dan is er een **transitie** op het element.
+- [ ] Wanneer er over de een link in de navigatiebalk gehovered wordt, dan is er een **transitie** op het element.
 
-- [ ]	Laat jouw creativiteit de loop. 
+- [ ] Laat jouw creativiteit de loop. 
 
 ## Inhoudelijke uitwerking
 Hieronder vind je voor elk van de drie pagina’s die jouw website bevat de concrete vereisten per pagina.
