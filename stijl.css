@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #ffffff;
+    background-color: #ffffff00;
 }
 
 nav a.logo {
@@ -8,22 +8,21 @@ nav a.logo {
 }
 
 nav img {
-    height: 100px;
-    margin-bottom: -130px;
+    height: 80px;
+    margin-bottom: -80px;
 }
 
 nav {
     text-align: center;
     width: 100%;
-    background-color: #333;
+    background-color: #fffdfd;
 }
 
 nav ul {
     list-style: none;
-    text-align: right;
+    text-align: middle;
     margin: 0;
     padding: 0;
-    bottom: 1px solid #888;
 }
 
 nav li {
@@ -32,7 +31,6 @@ nav li {
     font-size: 1.2em;
     line-height: 40px;
     height: auto;
-    bottom: 1px solid #888;
     margin: 5px 10%;
 }
 
@@ -40,14 +38,18 @@ nav li:first-child {
     float: left;
 }
 
+nav li:last-child {
+    float: right;
+}
+
 nav a {
-    display: inline-block;
-    color: white;
+    display: inline;
+    color: #F8AD2A;
     padding: 14px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #dddddd00;
-    color: black;
+    background-color: #ffffff00;
+    color: rgba(255, 255, 255, 0.172);
 }
