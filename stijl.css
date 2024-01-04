@@ -49,7 +49,7 @@ nav {
     background-color: #fffdfd;
 }
 
-nav ul {
+nav>ul {
     list-style: none;
     text-align: center;
     margin: 0;
@@ -58,7 +58,7 @@ nav ul {
     grid-template-columns: 25% auto 25%;
 }
 
-nav li {
+nav>ul>li {
     display: inline;
     font-family: Modak, sans-serif;
     font-size: 1.2em;
@@ -146,6 +146,7 @@ figure {
     cursor: pointer;
     margin-top: 20px
 }
+
 .middle_button:hover {
     box-shadow: 2px 2px 5px #888888;
 }
@@ -162,7 +163,7 @@ figure {
     margin-bottom: 100px;
 }
 
-.Logo_Livia_th { 
+.Logo_Livia_th {
     height: 80px
 }
 
@@ -170,7 +171,7 @@ figure {
     height: 80px
 }
 
-.down_subject { 
+.down_subject {
     font-family: 'Baloo Tammudu 2', sans-serif;
     font-size: 18px;
     color: #333;
@@ -191,5 +192,49 @@ small {
     font-family: 'Baloo Tammudu 2', sans-serif;
     font-size: 7px;
     color: #333;
-    line-height: 1.5; 
- }
+    line-height: 1.5;
+}
+
+/* Categories burger */
+#menu {
+    display: inline;
+    font-family: Modak, sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: auto;
+    margin: 5px 10%;
+}
+
+
+#menu input {
+    display: none;
+}
+
+#menu label {
+    cursor: pointer;
+    color: #F8AD2A;
+    padding: 14px;
+}
+
+#menu label:hover {
+    color: rgb(255, 255, 255);
+}
+
+#menu li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+#menu ul {
+    display: none;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    margin: 14px;
+    min-width: max-content;
+}
+
+#menu input:checked~ul {
+    display: block;
+}
