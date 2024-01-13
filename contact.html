@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content=”Silvia Junius” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=”Card, cards, webshop, baby, new home, thank you, love” />
+    <title>Livia Studio</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon/Favicon.png">
+    <link rel="stylesheet" href="stijl.css">
+    <!-- Import Modak & Baloo Tammudu 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&family=Modak&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="background_contact">
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="index.html"><img src="image/logo/Logo_Livia.png" alt="Logo Livia" /></a></li>
+                <li>
+                    <div id="menu">
+                        <input type="checkbox" id="cards" />
+                        <label for="cards">Cards</label>
+
+                        <ul id="categories">
+                            <li><a href="webshop.html">All</a></li>
+                            <li><a href="webshop.html#cat_baby">Baby</a></li>
+                            <li><a href="webshop.html#cat_love">Love</a></li>
+                            <li><a href="webshop.html#cat_new_home">New Home</a></li>
+                            <li><a href="webshop.html#cat_thank_you">Thank You</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+<main>
+    
+    <h1 class="tittel_contact">Get in touch</h1>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" autocomplete="on">
+        <label class="span-input" for="reason-contact">Reason for Contact:</label>
+        <select class="span-input" id="reason-contact" name="reason-contact">
+          <option value="general">General</option>
+          <option value="customer-service">Customer Service</option>
+          <option value="sales">Sales</option>
+        </select>
+
+        <section class="span-input gender-section">
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="M">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="F">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="X" required>
+            <label for="other">Other</label>
+        </section>
+        
+        <input class="span-input" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        <input class="span-input" type="text" id="first-name" name="first-name" placeholder="First Name" required>
+        <input class="span-input" type="text" id="address" name="address" placeholder="Address">
+        <input class="span-input" type="tel" id="phone" name="phone" placeholder="Phone Number">
+        <input class="span-input" type="email" id="email" name="email" placeholder="Email Address" required>
+
+        <label class="span-input" for="question">Question (required):</label>
+        <textarea class="span-input" id="question" name="question" rows="4" placeholder="Questions" required></textarea>
+        
+        <button type="submit"><b>Submit</b></button>
+        <button type="reset"><b>Reset</b></button>
+      </form>
+      
+      <button class="chat-button"><b>Chat with us</b></button>
+    
+</main>
+
+<footer>
+    <small>Dit is een virtuele oefenfirma. Informatie, transacties en goederen op deze website zijn fictief en
+        hebben louter educatieve doeleinden.</small>
+    <br>
+    <small>&copy;Junius Silvia - WFB@Home - Howest</small>
+</footer>
+
+</body>
+
+</html>
