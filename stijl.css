@@ -269,7 +269,8 @@ nav a:hover {
 }
 
 .middle_img {
-    padding: auto 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     width: 350px;
     display: block;
     border-radius: 7px;
