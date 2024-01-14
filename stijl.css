@@ -367,6 +367,14 @@ select {
     margin: 2px;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #F8AD2A;
+    outline: 0;
+    box-shadow: 0 0 8px #F8AD2A;
+}
+
 ::placeholder {
     font-family: 'Baloo Tammudu 2', sans-serif;
     padding-left: 5px;
