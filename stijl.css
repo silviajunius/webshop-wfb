@@ -35,6 +35,13 @@ h1 {
     font-weight: 1;
 }
 
+h2 {
+    font-size: 35px;
+    color: #F8AD2A;
+    font-family: Modak, sans-serif;
+    font-weight: 1;
+}
+
 p {
     font-family: 'Baloo Tammudu 2', sans-serif;
     font-size: 26px;
@@ -132,16 +139,17 @@ nav a:hover {
 }
 
 #menu ul {
-    display: none;
+    display: block;
     padding: 0;
     position: absolute;
     z-index: 2;
     margin: 14px;
     min-width: max-content;
+    visibility: hidden;
 }
 
 #menu input:checked~ul {
-    display: block;
+    visibility: visible;
 }
 
 /* Spotlight */
@@ -241,7 +249,7 @@ figure {
     background-repeat: no-repeat;
 }
 
-.down_h1 {
+.down_h {
     margin-left: 12%;
     margin-bottom: 100px;
 }
@@ -317,8 +325,8 @@ figcaption {
 
 #cat_baby {
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
 }
