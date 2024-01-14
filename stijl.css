@@ -1,4 +1,5 @@
 /* General style */
+
 html {
     scroll-behavior: smooth;
 }
@@ -50,7 +51,33 @@ p {
     margin-right: 15%;
 }
 
+table {
+    margin-left: 10%;
+    margin-bottom: -2px;
+}
+
+footer>small {
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    font-size: 7px;
+    color: #333;
+    line-height: 1.5;
+}
+
+#chat-button {
+    position: fixed;
+    bottom: 30px;
+    /* Afstand vanaf de onderkant van de pagina */
+    right: 30px;
+    background-color: #F8AD2A;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 /* Navigatie */
+
 .active {
     text-shadow: 4px 4px 10px #aaa;
 }
@@ -102,6 +129,7 @@ nav a:hover {
 }
 
 /* Navigatie: categorieen burger */
+
 #menu {
     display: inline;
     font-family: Modak, sans-serif;
@@ -125,7 +153,6 @@ nav a:hover {
 #menu label {
     cursor: pointer;
     color: #F8AD2A;
-    /* padding: 14px; */
 }
 
 #menu label:hover {
@@ -153,7 +180,9 @@ nav a:hover {
     visibility: visible;
 }
 
+/* Index */
 /* Spotlight */
+
 .spotlight {
     display: flex;
     flex-wrap: wrap;
@@ -182,7 +211,6 @@ nav a:hover {
     width: 300px;
     display: block;
     transform: rotate(65deg) scale(1.1);
-        /* Om eventuele extra ruimte te verwijderen */
 }
 
 .spotlight_button {
@@ -202,6 +230,8 @@ nav a:hover {
 .spotlight_button:hover {
     box-shadow: 2px 2px 5px #888888;
 }
+
+/* Middle */
 
 .middle {
     display: flex;
@@ -245,6 +275,8 @@ nav a:hover {
     border-radius: 7px;
 }
 
+/* Down */
+
 .down {
     padding-top: 200px;
 
@@ -280,31 +312,7 @@ nav a:hover {
     margin: -15px;
 }
 
-table {
-    margin-left: 10%;
-    margin-bottom: -2px;
-}
-
-small {
-    font-family: 'Baloo Tammudu 2', sans-serif;
-    font-size: 7px;
-    color: #333;
-    line-height: 1.5;
-}
-
-.product_img {
-    height: 300px;
-    border-radius: 7px 7px 0px 0px;
-}
-
-figcaption {
-    font-family: 'Baloo Tammudu 2', sans-serif;
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
-    margin-left: 5%;
-}
-
+/* Webshop */
 
 .webshop {
     font-size: 35px;
@@ -314,27 +322,18 @@ figcaption {
     font-weight: 1;
 }
 
-.kader-tekst {
-    display: inline-block;
-    background-color: #cae6e2;
-    font-family: Modak, sans-serif;
-    color: white;
-    padding: 10px 80px;
-    font-size: 30px;
-    border: none;
-    border-radius: 50px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 15%;
-    font-weight: 1;
-}
-
 #cat_baby {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
+}
+
+.cards_class {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -352,11 +351,35 @@ figcaption {
     box-shadow: 0 15px 24px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cards_class {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+.product_img {
+    height: 300px;
+    border-radius: 7px 7px 0px 0px;
 }
+
+.card>figcaption {
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin-left: 5%;
+}
+
+.kader-tekst {
+    display: inline-block;
+    background-color: #cae6e2;
+    font-family: Modak, sans-serif;
+    color: white;
+    padding: 10px 80px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 15%;
+    font-weight: 1;
+}
+
+/* contact */
 
 form {
     max-width: 300px;
@@ -404,7 +427,7 @@ input[type="radio"] {
     accent-color: #F8AD2A;
 }
 
-button {
+button[type="submit"] {
     background-color: #dccae4;
     color: white;
     padding: 10px 15px;
@@ -428,19 +451,6 @@ button:hover {
     font-family: Modak, sans-serif;
     text-align: center;
     font-weight: 1;
-}
-
-.chat-button {
-    position: fixed;
-    bottom: 30px;
-    /* Afstand vanaf de onderkant van de pagina */
-    right: 30px;
-    background-color: #F8AD2A;
-    color: #fff;
-    padding: 12px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
 }
 
 /* Backgrounds */
