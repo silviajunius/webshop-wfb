@@ -19,36 +19,36 @@ Je dient jouw uitwerking in via **Github Classrooms**. De link vind je op Leho b
 Vergeet niet om regelmatig te committen en pushen naar je repository en controleer of je project daadwerkelijk online staat. Enkel wat online staat wordt geëvalueerd!
 
 ## Technische (algemene) vereisten
-- [ ] Je maakt een **responsive layout met behulp van een CSS grid voor de algemene layout van de pagina’s** en gebruikt die consistent op alle pagina’s. Je website ziet er dus zowel op mobile, desktop als tablet goed uit en heeft indien nodig een andere structuur.
+- [x] Je maakt een **responsive layout met behulp van een CSS grid voor de algemene layout van de pagina’s** en gebruikt die consistent op alle pagina’s. Je website ziet er dus zowel op mobile, desktop als tablet goed uit en heeft indien nodig een andere structuur.
 
-- [ ] Je website gebruikt **eigen CSS**. Het gebruik van CSS Frameworks (Bootstrap, Bulma, …) is **niet toegelaten**.
+- [x] Je website gebruikt **eigen CSS**. Het gebruik van CSS Frameworks (Bootstrap, Bulma, …) is **niet toegelaten**.
 
-- [ ] De productenlijst(en) wordt vorm gegeven met behulp van een **CSS flexbox**.
+- [x] De productenlijst(en) wordt vorm gegeven met behulp van een **CSS flexbox**.
 
-- [ ] Gebruik de HTML5 semantische tags waar nodig (bv. headers, footers, main, section, article,…)
+- [x] Gebruik de HTML5 semantische tags waar nodig (bv. headers, footers, main, section, article,…)
 
-- [ ] Organiseer je afbeeldingen(*) en CSS- en HTML-bestanden in een **ordelijke mappenstructuur**.
+- [x] Organiseer je afbeeldingen(*) en CSS- en HTML-bestanden in een **ordelijke mappenstructuur**.
 
-- [ ] Alle webpagina’s zijn in geldige HTML5 opgebouwd (gebruik een validator). 
+- [x] Alle webpagina’s zijn in geldige HTML5 opgebouwd (gebruik een validator). 
 
-- [ ] Gebruik HTML coderingen voor speciale karakters © € … 
+- [x] Gebruik HTML coderingen voor speciale karakters © € … 
 
-- [ ] De webpagina’s zijn cross-browser en vertonen in alle moderne browsers een consistente weergave.
+- [x] De webpagina’s zijn cross-browser en vertonen in alle moderne browsers een consistente weergave.
 
-- [ ] Er kan op elke pagina naar de andere pagina’s genavigeerd worden. Dit doe je door een navigatiebalk te voorzien via een lijst. Het moet op elke pagina duidelijk zijn op welke pagina de gebruiker zich bevindt. Doe dit door de actieve pagina te markeren m.b.v. een CSS klasse ‘active’.
+- [x] Er kan op elke pagina naar de andere pagina’s genavigeerd worden. Dit doe je door een navigatiebalk te voorzien via een lijst. Het moet op elke pagina duidelijk zijn op welke pagina de gebruiker zich bevindt. Doe dit door de actieve pagina te markeren m.b.v. een CSS klasse ‘active’.
 
-- [ ] Op één van de hoeken van de pagina staat een chatknop. Deze knop hoeft niet te werken, maar hij is steeds zichtbaar op dezelfde plaats, ook al wordt er gescrolled.
+- [x] Op één van de hoeken van de pagina staat een chatknop. Deze knop hoeft niet te werken, maar hij is steeds zichtbaar op dezelfde plaats, ook al wordt er gescrolled.
 
-- [ ] Onderaan elke pagina staat een disclaimer : “Dit is een virtuele oefenfirma. Informatie, transacties en goederen op deze website zijn fictief en hebben louter educatieve doeleinden.”
+- [x] Onderaan elke pagina staat een disclaimer : “Dit is een virtuele oefenfirma. Informatie, transacties en goederen op deze website zijn fictief en hebben louter educatieve doeleinden.”
 
-- [ ] Plaats volgende copyrighttekst op elke pagina: “© [Naam] [Voornaam] – WFB@Home – Howest”
+- [x] Plaats volgende copyrighttekst op elke pagina: “© [Naam] [Voornaam] – WFB@Home – Howest”
 
 ## Algemene design vereisten
 De website is de online identiteit van het bedrijf en vereist dus een professionele look en een consistente huisstijl. Behalve de inhoud moet er dus ook een goed design gemaakt worden:
 
-- [ ] Zorg voor een **consistent kleurenschema**. Gebruik deze kleuren op strategische plaatsen zodat de gebruiker overal de huisstijl herkent. Het is uiteraard toegestaan om extra kleuren toe te voegen. (wit, donkergrijs, zwart of kleuren uit een zelfgemaakt palet : http://colorschemedesigner.com) 
+- [x] Zorg voor een **consistent kleurenschema**. Gebruik deze kleuren op strategische plaatsen zodat de gebruiker overal de huisstijl herkent. Het is uiteraard toegestaan om extra kleuren toe te voegen. (wit, donkergrijs, zwart of kleuren uit een zelfgemaakt palet : http://colorschemedesigner.com) 
 
-- [ ] Maak een **consistente look & feel** op elke pagina. Hoewel de inhoud van elke pagina anders is, moeten deze echt wel bij elkaar passen. De navigatie moet op dezelfde plaats terug te vinden zijn; layouts zijn gelijkaardig en er wordt weinig of niet afgeweken van het gekozen kleurenschema. 
+- [x] Maak een **consistente look & feel** op elke pagina. Hoewel de inhoud van elke pagina anders is, moeten deze echt wel bij elkaar passen. De navigatie moet op dezelfde plaats terug te vinden zijn; layouts zijn gelijkaardig en er wordt weinig of niet afgeweken van het gekozen kleurenschema. 
 Alle rest wordt overgelaten aan jouw creativiteit. Even geen inspiratie? Zoek gratis sjablonen online of bekijk jouw favoriete sites eens goed!
 
 ## Uitbreidingsmogelijkheiden
@@ -56,9 +56,9 @@ Uitbreidingen zijn uiteraard toegestaan. Hieronder een lijst van mogelijke onder
 
 - [ ] Je website is voorzien van een logo (dit mag tekst zijn) dat een **animatie** heeft.
 
-- [ ] Wanneer er over de een link in de navigatiebalk gehovered wordt, dan is er een **transitie** op het element.
+- [x] Wanneer er over de een link in de navigatiebalk gehovered wordt, dan is er een **transitie** op het element.
 
-- [ ] Laat jouw creativiteit de loop. 
+- [x] Laat jouw creativiteit de loop. 
 
 ## Inhoudelijke uitwerking
 Hieronder vind je voor elk van de drie pagina’s die jouw website bevat de concrete vereisten per pagina.
@@ -66,24 +66,24 @@ Hieronder vind je voor elk van de drie pagina’s die jouw website bevat de conc
 ### Indexpagina
 Dit is de welkomstpagina die volgende informatie bevat:
 
-- [ ] Verwelkoming op de site
+- [x] Verwelkoming op de site
 
-- [ ] Beschrijving van de firma
+- [x] Beschrijving van de firma
 
-- [ ] Spotlight: Kies een of meer favoriete topics uit de lijst en plaats deze in de “spotlight” op de indexpagina. Link deze door naar de desbetreffende topic pagina. 
+- [x] Spotlight: Kies een of meer favoriete topics uit de lijst en plaats deze in de “spotlight” op de indexpagina. Link deze door naar de desbetreffende topic pagina. 
 
-- [ ] Categorieën: Hier worden de verschillende categorieën van de webshop aangegeven waar de gebruiker kan naar doorlinken. Na het doorlinken worden de producten van de aangetikte categorie onmiddellijk op je juiste locatie getoond met de belangrijkste informatie.
+- [x] Categorieën: Hier worden de verschillende categorieën van de webshop aangegeven waar de gebruiker kan naar doorlinken. Na het doorlinken worden de producten van de aangetikte categorie onmiddellijk op je juiste locatie getoond met de belangrijkste informatie.
 
-- [ ] Een tabel waarin een vergelijking wordt gemaakt met de producten/diensten van jouw firma en die van de concurrentie.
+- [x] Een tabel waarin een vergelijking wordt gemaakt met de producten/diensten van jouw firma en die van de concurrentie.
 
 ### Pagina met webshop
 De belangrijkste pagina van de volledige site. Op deze pagina kunnen potentiële klanten de aangeboden categorieën van de topics bekijken in detail. Het is dus enorm belangrijk dat de categorieën zeer professioneel en overzichtelijk worden gepresenteerd. 
 
-- [ ] Er worden 20 producten in 4 categorieën getoond met een korte beschrijving en prijs per product (minstens 5 producten per categorie). Zoek hiervoor de nodige informatie online. (afbeeldingen, beschrijvingen,…).
+- [x] Er worden 20 producten in 4 categorieën getoond met een korte beschrijving en prijs per product (minstens 5 producten per categorie). Zoek hiervoor de nodige informatie online. (afbeeldingen, beschrijvingen,…).
 
-- [ ] De producten staan binnen een **flexbox**. Het product zélf is dus een **flex item**.
+- [x] De producten staan binnen een **flexbox**. Het product zélf is dus een **flex item**.
 
-- [ ] Gebruik passende semantische elementen binnen de webshop.
+- [x] Gebruik passende semantische elementen binnen de webshop.
 
 **Er dient geen “winkelkar” systeem of iets dergelijks ingebouwd te worden. Potentiële klanten moeten immers per e-mail contact opnemen met het bedrijf.**
 
