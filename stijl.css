@@ -428,14 +428,17 @@ input[type="radio"] {
     accent-color: #F8AD2A;
 }
 
-button[type="submit"] {
-    background-color: #dccae4;
+button[type="submit"], button[type="reset"] {
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 7px;
     cursor: pointer;
     font-size: 14px;
+}
+
+button[type="submit"] {
+    background-color: #dccae4;
 }
 
 button[type="reset"] {
