@@ -208,7 +208,7 @@ nav a:hover {
 }
 
 .spotlight_card {
-    width: 300px;
+    width: max(300px, 40vw);
     display: block;
     transform: rotate(65deg) scale(1.1);
 }
