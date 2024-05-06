@@ -309,7 +309,7 @@ nav a:hover {
 }
 
 .down_dot {
-    height: max(80px,20vw);
+    height: min(max(80px,20vw),160px);
     margin: -15px;
 }
 
