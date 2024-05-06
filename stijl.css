@@ -302,14 +302,14 @@ nav a:hover {
 
 .down_subject {
     font-family: 'Baloo Tammudu 2', sans-serif;
-    font-size: 18px;
+    font-size: max(18px,3vw);
     color: #ffffff;
     line-height: 1.5;
     margin-right: 15%;
 }
 
 .down_dot {
-    height: 80px;
+    height: max(80px,20vw);
     margin: -15px;
 }
 
