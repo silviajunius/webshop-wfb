@@ -91,7 +91,7 @@ nav a.logo {
 }
 
 nav img {
-    height: 80px;
+    height: max(80px,10vw);
 }
 
 nav {
