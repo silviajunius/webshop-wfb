@@ -293,11 +293,11 @@ nav a:hover {
 }
 
 .Logo_Livia_th {
-    height: 68px
+    height: max(68px,10vw);
 }
 
 .Logo_Pelicaan_th {
-    height: 68px
+    height: max(68px,10vw);
 }
 
 .down_subject {
